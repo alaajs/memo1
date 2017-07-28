@@ -62,16 +62,20 @@ To install everything in one command (useful for VPS deployment) on Debian-based
 
 فتح ترمنال وخلي   
 ➖🔹➖🔹➖🔹➖🔹➖🔹
+
 sudo apt-get update 
+
 ➖🔹➖🔹➖🔹➖🔹➖🔹
 ورهأَ خلي  
 
 redis-server
+
 ➖🔹➖🔹➖🔹➖🔹➖🔹
+
 تركه مفتوح   
 
 وفتح ترمنال ثاني وخلي  
-```sh
+
 
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alaajs/memo1.git && cd TH3BOSS && chmod +x TH3BOSS.sh && ./TH3BOSS.sh install && ./TH3BOSS.sh
 ```
